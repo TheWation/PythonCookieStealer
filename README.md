@@ -1,4 +1,7 @@
 # Python Cookie Stealer
+The Python cookie stealer is a tool that can be used in penetration testing and XSS attacks to steal browser cookies from victims. The tool works by setting up a server that listens for incoming requests with a specific cookie value. When a request is received, the tool logs various information about the request, including the date and time, client IP address, user agent, referer, and cookie value, to a file.
+
+This tool can be used by attackers to steal sensitive information, such as session tokens and authentication credentials, from unsuspecting users. By stealing a user's browser cookies, an attacker can gain unauthorized access to the user's account and perform actions on their behalf.
 
 ## Usage
 
